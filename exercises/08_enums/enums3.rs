@@ -57,9 +57,7 @@ impl State {
             Message::ChangeColor(r, g, b) => {
                 self.change_color(r, g, b);
             }
-            Message::Quit => {
-                self.quit()
-            }
+            Message::Quit => self.quit(),
         }
     }
 }

@@ -7,7 +7,7 @@ fn maybe_icecream(hour_of_day: u16) -> Option<u16> {
     match hour_of_day {
         0..=21 => Some(5),
         22..=23 => Some(0),
-        _ => None
+        _ => None,
     }
 }
 
